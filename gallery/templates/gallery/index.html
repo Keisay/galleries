@@ -3,7 +3,7 @@
 {% load gallery_tags %}
 
 {% block body %}
-    <h1><a href="{% url 'home' %}">Homepage</a></h1>
+    <h3><a href="{% url 'home' %}">Homepage</a></h3>
     {% if imgs %}
         {% for img in imgs %}
             {% with img|split:"." as strs %}
