@@ -1,0 +1,13 @@
+{% extends 'photo/base.html' %}
+
+{% load photo_tags %}
+
+{% block body %}
+    <h1><a href="{% url 'home' %}">Homepage</a></h1>
+    <video controls width="250">
+        <source src="media/vids/ro.mp4">
+    </video>
+    <video controls width="250">
+        <source src="media/vids/ri.mp4">
+    </video>
+{% endblock %}

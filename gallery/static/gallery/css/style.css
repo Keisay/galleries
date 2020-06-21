@@ -32,7 +32,7 @@ a {
   float: left;
   width: 20%;
   height: auto;
-  border: 2px solid #fff;
+  border: 5px solid #fff;
   -webkit-transition: -webkit-transform .15s ease;
   -moz-transition: -moz-transform .15s ease;
   -o-transition: -o-transform .15s ease;
@@ -56,4 +56,10 @@ a {
 
 .align-center {
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .container .gallery a img {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }

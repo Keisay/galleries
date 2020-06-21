@@ -1,8 +1,9 @@
 {% extends "gallery/base.html" %}
 
-{% load photo_tags %}
+{% load gallery_tags %}
 
 {% block body %}
+    <h1><a href="{% url 'home' %}">Homepage</a></h1>
     {% if imgs %}
         {% for img in imgs %}
             {% with img|split:"." as strs %}
