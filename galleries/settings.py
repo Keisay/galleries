@@ -25,7 +25,7 @@ SECRET_KEY = 'l93)oa_au(2xq&--0n=r5qbj%2tc-8_7k_+uiolw4^cvag%2rq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
